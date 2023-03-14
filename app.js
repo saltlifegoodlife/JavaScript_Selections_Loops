@@ -16,6 +16,7 @@ for (let i = 1; i <= 100; i++) {
 }
 
 let i = 1;
+
 while (i <= 100) {
   if (i % 2 !== 0) {
     console.log(i);
@@ -62,9 +63,8 @@ for (let i = 0; i <= n; i++) {
   if (i === value) {
     answer = `Found value! It is: ${value}`;
     break;
-  } else {
-    answer = "Did not find value";
   }
+  answer = "Did not find value";
 }
 console.log(answer);
 
